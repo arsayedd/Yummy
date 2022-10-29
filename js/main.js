@@ -183,11 +183,11 @@ function displayMeal(meal) {
         }
     }
 
-    let tags = meal.strTags?.split(",") ////////////////////////////////////////////////////////////////////////
-    let tagsStr = "" ///////////////////////////////////////////////////////////////////////////////////////////
-    for (let i = 0; i < tags?.length; i++) { ///////////////////////////////////////////////////////////////////
-        tagsStr += `<li class="my-3 mx-1 p-1 alert-danger rounded">${tags[i]}</li>` ////////////////////////////
-    } ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+    let tags = meal.strTags?.split(",") 
+    let tagsStr = "" 
+    for (let i = 0; i < tags?.length; i++) { 
+        tagsStr += `<li class="my-3 mx-1 p-1 alert-danger rounded">${tags[i]}</li>` 
+    } 
 
     let str = `
     <div class="col-md-4 media-style text-white">
